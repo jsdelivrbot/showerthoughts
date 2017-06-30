@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    font-family: 'Montserrat';
+    sans-serif;
+    font-size: 30px;
+    background: gray;
+    text-align: center;
+}
+
+.middle {
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+.rain {
+    z-index: 998;
+}
+
+.drop {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(135, 206, 250, 1)), to(rgba(255, 255, 255, 0.6)));
+    background: -moz-linear-gradient(top, rgba(135, 206, 250, 1) 0%, rgba(255, 255, 255, .6) 100%);
+    width: 2px;
+    height: 30px;
+    position: absolute;
+    bottom: 200px;
+    -webkit-animation: fall 1s linear infinite;
+    -moz-animation: fall 1s linear infinite;
+}
+
+
+/* animate the drops*/
+
+@-webkit-keyframes fall {
+    to {
+        margin-top: 900px;
+    }
+}
+
+@-moz-keyframes fall {
+    to {
+        margin-top: 900px;
+    }
+}
+
+.smoke {
+    background: gray;
+}
+
+.nope {
+    z-index: 9;
+    background: gray;
+    color: white;
+}
