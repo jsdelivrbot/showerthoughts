@@ -1,5 +1,4 @@
 # ShowerThoughts
-Randomly displays a post from reddit r/showerthoughts
+Displays a randomly chosen post from reddit r/showerthoughts
 
-
-http://troygriff.com/showerthoughts/
+https://showerthought.herokuapp.com/
